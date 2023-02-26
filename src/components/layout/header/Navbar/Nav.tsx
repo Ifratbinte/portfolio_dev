@@ -9,7 +9,7 @@ const Nav = () => {
         {NavItems &&
           NavItems.map((item: NavInterface, i: number) => {
             return (
-              <li className="list unstyled py-2 px-3">
+              <li className="list unstyled py-2 px-3" key={i}>
                 <Link href="#" className="flex items-center">
                   <span className="pr-1">
                     <item.Icon />
