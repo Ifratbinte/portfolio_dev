@@ -7,7 +7,7 @@ const Nav = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto py-4">
       <div className="flex justify-between items-center">
         <div className="logo">
           <img src="/images/logo/logo-sm.png" alt="" height={5} width={30} />
