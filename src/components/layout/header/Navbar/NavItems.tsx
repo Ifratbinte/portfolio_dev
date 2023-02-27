@@ -12,7 +12,7 @@ const NavItems: NavInterface[] = [
   {
     id: 1,
     title: "Home",
-    path: "#",
+    path: "/",
     Icon: FiGrid,
   },
   {
