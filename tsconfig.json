@@ -21,6 +21,7 @@
       "#components/*": ["./src/components/*"],                      
       "#container/*": ["./src/container/*"],                      
       "#config/*": ["./src/config/*"],                      
+      "#mocks/*": ["./src/__mocks__/*"],                      
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
