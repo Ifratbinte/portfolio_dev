@@ -10,7 +10,7 @@ const Nav = () => {
           NavItems.map((item: NavInterface, i: number) => {
             return (
               <li className="list unstyled py-2 px-3" key={i}>
-                <Link href={item.path} className="flex items-center">
+                <Link href={item.path} className="flex items-center font-mono text-base text-slate-100">
                   <span className="pr-1">
                     <item.Icon />
                   </span>

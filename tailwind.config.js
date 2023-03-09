@@ -9,7 +9,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'sea-green': '#009e66',
+      },
+    },
     container: {
       padding: "2rem",
     },
