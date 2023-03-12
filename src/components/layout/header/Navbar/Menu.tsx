@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import styles from "./menu.module.css";
-import Navigation from "./Nav";
+import Navigation from "./NavComponent";
 
 const Nav = () => {
   const [isVisible, setIsVisible] = useState(false);
