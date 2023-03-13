@@ -4,9 +4,9 @@ const TypedComponent = () => {
     <div>
       <Typed 
           strings={[
-            "I'm Frontend Designer",
-            "I'm React Developer", 
-            "I'm Software Engineer"
+            "I'm a Frontend Designer",
+            "I'm a React Developer", 
+            "I'm a Software Engineer"
             ]} 
             typeSpeed={40} 
             backSpeed={50} 
