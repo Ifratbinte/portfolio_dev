@@ -13,6 +13,9 @@ module.exports = {
       colors: {
         'sea-green': '#009e66',
       },
+      backgroundImage: {
+        'hero-bg' : "url('/images/bg-hero.jpg')"
+      }
     },
     container: {
       padding: "2rem",
