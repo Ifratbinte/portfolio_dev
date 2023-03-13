@@ -45,7 +45,7 @@ export const particlesData: ISourceOptions = {
         type: "circle",
       },
       onHover: {
-        enable: true,
+        enable: false,
         mode: "repulse",
         parallax: {
           enable: false,
@@ -197,7 +197,7 @@ export const particlesData: ISourceOptions = {
       },
     },
     color: {
-      value: "#ff0000",
+      value: "#2e7f85",
       animation: {
         h: {
           count: 0,
@@ -296,8 +296,8 @@ export const particlesData: ISourceOptions = {
     number: {
       density: {
         enable: true,
-        area: 800,
-        factor: 1000,
+        area: 700,
+        factor: 2000,
       },
       limit: 0,
       value: 80,
@@ -340,8 +340,8 @@ export const particlesData: ISourceOptions = {
         minimumValue: 1,
       },
       value: {
-        min: 0.1,
-        max: 3,
+        min: 0.5,
+        max: 5,
       },
       animation: {
         count: 0,
@@ -496,7 +496,7 @@ export const particlesData: ISourceOptions = {
     links: {
       blink: false,
       color: {
-        value: "#ffffff",
+        value: "#0b555a",
       },
       consent: false,
       distance: 100,
