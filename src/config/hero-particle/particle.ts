@@ -4,7 +4,7 @@ export const particlesData: ISourceOptions = {
   autoPlay: true,
   background: {
     color: {
-      value: "#222222",
+      value: "#09282a",
     },
     image: "",
     position: "",
@@ -277,7 +277,7 @@ export const particlesData: ISourceOptions = {
       },
       random: false,
       size: false,
-      speed: 3,
+      speed: 1.5,
       spin: {
         acceleration: 0,
         enable: false,
