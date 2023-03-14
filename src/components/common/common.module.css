@@ -1,0 +1,46 @@
+@keyframes barAnimation {
+  from {
+    right: 30%;
+  }
+  to {
+    left: 100%;
+  }
+}
+.animated_bar{
+  background-color: #009e66;
+}
+.animated_bar::after, .animated_bar::before{
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: barAnimation;
+  animation-timing-function: linear;
+  background-color: #101010;
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 4px;
+}
+.animated_bar:before{
+  left: 20px;
+}
+.animated_bar::after{
+  left: 0;
+}
+.section_heading{
+  margin-bottom: 85px;
+}
+.divide{
+  position: relative;
+}
+.divide::after{
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top : 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background: #3b3b3b;
+}
