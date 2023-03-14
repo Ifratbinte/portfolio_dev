@@ -1,0 +1,14 @@
+{
+  "about" : {
+    "title" : "About Me",
+    "description" : "Get to know me"
+  },
+  "resume" : {
+    "title" : "Resume",
+    "description" : "Check out my Resume"
+  },
+  "portfolio" : {
+    "title" : "Portfolio",
+    "description" : "Showcasing some of my best work"
+  }
+}
