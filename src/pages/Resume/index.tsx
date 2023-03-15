@@ -1,9 +1,12 @@
-import React from 'react'
+import SectionHeading from "#/components/common/SectionHeading";
+import ResumeData from "#mocks/subheading.json";
 
 const index = () => {
   return (
-    <div>resume</div>
-  )
-}
+    <>
+      <SectionHeading title={ResumeData.resume.title} description={ResumeData.resume.description} />
+    </>
+  );
+};
 
-export default index
+export default index;
