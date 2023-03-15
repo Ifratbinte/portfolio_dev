@@ -1,10 +1,14 @@
-import contactAction, { SocialIconInterface } from "#components/social-action/social-contact";
+import contactAction, { SocialIconInterface } from "#/components/Icon/social-contact";
 
-const contactOptions = () => {
+interface Props {
+  isFlex?: boolean;
+}
+
+const contactOptions: React.FC<Props> = ({ isFlex = false }) => {
   console.log({ contactAction });
 
   return (
-    <ul className="social-icons absolute z-10 bottom-10 right-8">
+    <ul className={`${!isFlex ? "flex" : ""} social-icons absolute z-10 bottom-10 right-8`}>
       {contactAction.map((item: SocialIconInterface, i: number) => {
         return (
           <li className="p-3" key={i}>

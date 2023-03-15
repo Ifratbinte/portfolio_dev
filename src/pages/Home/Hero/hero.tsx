@@ -1,7 +1,7 @@
 import TypedComponent from "#/config/TypedJs/typedComponent";
 import introData from "#mocks/intro.json";
 import { useState } from "react";
-import SocialAction from "./contact-options";
+import SocialAction from "#components/Icon/ContactOption";
 import styles from "./home.module.css";
 
 const hero = () => {
