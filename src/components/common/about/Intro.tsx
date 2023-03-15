@@ -43,6 +43,9 @@ const IntroTemp: React.FC<IntroProps> = ({ introQus, title, description, name, e
             <p className="pl-2">{phone}</p>
           </div>
         </div>
+        <div className="grid grid-cols-3 gap-4 pt-3">
+          <a href="/Kazi Ifrat Sultana.pdf" className="btn rounded-full bg-sea-green hover:bg-green-500 transition duration-700 ease-in-out text-white text-center p-2" download>Download CV</a>
+        </div>
       </div>
     </div>
   );
