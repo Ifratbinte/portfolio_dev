@@ -1,0 +1,89 @@
+{
+  "resume": {
+    "works": [
+      {
+        "id": 1,
+        "date": "June, 2022 - CURRENT",
+        "designation": "React Developer",
+        "institution": "Bdtask Limited",
+        "responsibility": [
+          {
+            "id": 1,
+            "item": "Working on Trading Stock Market Broker House"
+          },
+          {
+            "id": 2,
+            "item": "Developed Stock Market Web Application"
+          },
+          {
+            "id": 3,
+            "item": "Structured, developed different web-based applications using Vite, Typescript, Rest API, Redux Toolkit, Tailwind & Bootstrap"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "date": "February, 2021 - April, 2022",
+        "designation": "Frontend Developer",
+        "institution": "Softnio",
+        "responsibility": [
+          {
+            "id": 1,
+            "item": "Developed Multipurpose Admin Panel using dart-sass & Gulp.js"
+          },
+          {
+            "id": 2,
+            "item": "Worked on conceptual app like PMS, CMS, LMS, CRM, HMS, HRM, Investment panel"
+          },
+          {
+            "id": 3,
+            "item": "Worked on Cryptocurrency Theme"
+          },
+          {
+            "id": 4,
+            "item": "Worked with Theme mode and RTL"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "date": "November, 2020 - January, 2021",
+        "designation": "Frontend Developer",
+        "institution": "Planethack Limited",
+        "responsibility": [
+          {
+            "id": 1,
+            "item": "Worked Admin Panel & Ecommerce User Interface using Bootstrap & SASS"
+          },
+          {
+            "id": 2,
+            "item": "Develop on beautyhacks conceptual app - Purler Management System"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": 1,
+        "date": "2016 - 2020",
+        "designation": "BSc. in Computer Science & Engineering",
+        "institution": "Britannia University",
+        "cgpa" : "3.54"
+      },
+      {
+        "id": 2,
+        "date": "2013 - 2014",
+        "designation": "Higher Secondary Certificate",
+        "institution": "Chandina Womens Collage and University",
+        "gpa" : "4.75"
+      },
+      {
+        "id": 3,
+        "date": "2013 - 2014",
+        "designation": "Secondary School Certificate",
+        "institution": "Chandina Dr. Firoza Pilot Girls High School",
+        "gpa" : "5.00"
+      }
+    ]
+  }
+}

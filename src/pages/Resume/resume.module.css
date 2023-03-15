@@ -1,0 +1,10 @@
+.after_elem{
+  position: absolute;
+    content: "";
+    left: 0;
+    bottom: -20%;
+    background: green;
+    height: 2px;
+    width: 50px;
+    display: inherit;
+}
