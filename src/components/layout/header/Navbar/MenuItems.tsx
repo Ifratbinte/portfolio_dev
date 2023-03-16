@@ -20,7 +20,7 @@ const NavItems: NavInterface[] = [
   },
   {
     id: 3,
-    title: "Resume",
+    title: "Skills & Resume",
     Icon: FiFileMinus,
     component: <Resume />,
   },

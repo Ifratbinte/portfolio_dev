@@ -27,8 +27,8 @@ const Education: React.FC<WorkInterface> = ({ date, designation, institution, li
           })}
         </ul>
       )}
-      {gpa && <p className="text-lg text-gray-600 font-semibold">GPA : {gpa}</p>}
-      {cgpa && <p className="text-lg text-gray-600 font-semibold">CGPA : {cgpa}</p>}
+      {gpa && <p className="text-lg">GPA : {gpa}</p>}
+      {cgpa && <p className="text-lg">CGPA : {cgpa}</p>}
     </div>
   );
 };

@@ -17,7 +17,6 @@ const Index = () => {
         <div className="md:container md:mx-auto">
           <div className="flex justify-center gap-6">
             <div className="w-full max-w-[33%] flex-1">
-            {/* <h2 className={`${style.after_elem} text-3xl text-white font-weight-600 mb-6 relative after-elem`}>Job Experience</h2> */}
             <h2 className="text-3xl text-white font-weight-600 mb-6 relative after-elem">Job Experience</h2>
               {works &&
                 works?.map((work: any, i: number) => {

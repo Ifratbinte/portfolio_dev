@@ -3,6 +3,27 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Scrollbar Style */
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 10px;
+}
+
+/* scrollbar-thumb */
+body::-webkit-scrollbar-thumb,
+html::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #009e66;
+}
+
+/* scrollbar-track */
+body::-webkit-scrollbar-track,
+html::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #d2c4ff;
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
